@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: purple;
+    padding: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+body {
+    background-color: rgb(250, 234, 251);
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: purple;
+    color: #ffffff;
+}
+
+nav h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #e9afec;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 238, 0);
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(97, 19, 97);
+}
+
+.home-image {
+    padding: 30px;
+    max-width: 500px; 
+    border-radius: 0%; 
+    margin-top: 10px;
+    box-shadow: 10px 2px 60px rgba(0, 0, 0, 0.2); 
+}
+
+.p1{
+    padding: 0px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.p2{
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+.about{
+    padding: 10px;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d7afd9;
+    color: rgb(93, 8, 104);
+    border-radius: 30px;
+}
+
+.p3{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+
+
+.p4{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+.p5{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+.p6{
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+.contact{
+    padding: 15px;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d7afd9;
+    color: rgb(93, 8, 104);
+    border-radius: 30px;
+}
+section p, section form {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.news{
+    padding: 20px;
+    text-align: center;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d7afd9;
+    color: rgb(93, 8, 104);
+    border-radius: 35px;
+}   
+
+h3{
+    padding: 20px;
+}
+
+.artikel-news{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.form{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d7afd9;
+    color: rgb(93, 8, 104);
+    border-radius: 35px;
+}
+
+.login{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d7afd9;
+    color: rgb(93, 8, 104);
+    border-radius: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1.5px solid #5f1c6c;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: purple;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 238, 0);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
